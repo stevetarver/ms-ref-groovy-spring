@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 #
 # Package the app - build the docker image
-# See https://github.com/CenturyLinkCloud/pl-cloud-infrastructure/wiki/Getting-Started:-CI-CD-CD for list of variables available to this script.
 #
 MY_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 (
     # Run from project root
     cd ${MY_DIR}/../..
