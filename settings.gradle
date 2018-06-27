@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'ms-ref-groovy-spring'
+rootProject.name = 'app'

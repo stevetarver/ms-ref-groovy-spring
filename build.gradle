@@ -86,3 +86,10 @@ codenarcTest {
 bootRun {
     systemProperties(System.properties)
 }
+
+// Build final jars in rootDir to limit context we need to send to docker builds
+assemble {
+    tasks.withType(Jar) {
+        destinationDir = file("$rootDir")
+    }
+}

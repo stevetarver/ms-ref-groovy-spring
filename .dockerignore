@@ -1,0 +1,11 @@
+
+/.gradle/
+/.idea/
+/build/
+/doc/
+gradle
+helm
+integration-test
+jenkins
+src
+/out/

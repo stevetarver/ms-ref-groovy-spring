@@ -4,3 +4,5 @@
 /.gradle/
 /.idea/
 /integration-test/newman/
+/app.jar
+/app.jar.original
